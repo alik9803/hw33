@@ -75,4 +75,15 @@ public class Student {
     public void setFaculty(Faculty faculty) {
         this.faculty = faculty;
     }
+
+    @OneToOne(mappedBy = "student", optional = false)
+    private Avatar avatar;
+
+    public Avatar getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(Avatar avatar) {
+        this.avatar = avatar;
+    }
 }

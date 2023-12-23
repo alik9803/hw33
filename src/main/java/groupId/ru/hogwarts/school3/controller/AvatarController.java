@@ -1,7 +1,5 @@
 package groupId.ru.hogwarts.school3.controller;
-import groupId.ru.hogwarts.school3.model.Avatar;
 import groupId.ru.hogwarts.school3.service.AvatarService;
-import groupId.ru.hogwarts.school3.service.AvatarServiceImpl;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

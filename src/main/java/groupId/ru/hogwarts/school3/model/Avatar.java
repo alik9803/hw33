@@ -1,5 +1,4 @@
 package groupId.ru.hogwarts.school3.model;
-
 import jakarta.persistence.*;
 import java.util.Objects;
 
